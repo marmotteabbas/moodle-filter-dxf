@@ -6,6 +6,8 @@ define(['filter_dxf/three'], function(THREE) {
  * @author alteredq / http://alteredqualia.com/
  * @author WestLangley / http://github.com/WestLangley
  * @author erich666 / http://erichaines.com
+ * 
+ * Released under MIT License (MIT)
  */
 
 // This set of controls performs orbiting, dollying (zooming), and panning. It maintains

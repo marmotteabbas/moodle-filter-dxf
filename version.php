@@ -17,15 +17,15 @@
  * Version details
  *
  * @package    filter
- * @subpackage tidy
- * @copyright  1999 onwards Martin Dougiamas (http://dougiamas.com)
+ * @subpackage dxf
+ * @copyright 2019 florent.paccalet@grenoble-inp.fr
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2017111310;        // The current plugin version (Date: YYYYMMDDXX)
+$plugin->version   = 2020010101;        // The current plugin version (Date: YYYYMMDDXX)
 $plugin->requires  = 2014111100;        // Requires this Moodle version
 $plugin->component = 'filter_dxf';     // Full name of the plugin (used for diagnostics)
 $plugin->maturity   = MATURITY_BETA;
-$plugin->release = '1.1';
+$plugin->release = '1.2';

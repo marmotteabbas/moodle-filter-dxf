@@ -1,3 +1,7 @@
+/*
+ * Released under MIT License (MIT)
+ * Made by bzuillsmith ; bzuillsmith@gmail.com
+*/
 define(['jquery','filter_dxf/three','filter_dxf/dxf-parser','filter_dxf/three-dxf'],
 function($, THREE, DxfParser, ThreeDxf) {
         var progress = document.getElementById('file-progress-bar-1');

@@ -1,6 +1,10 @@
 /*eslint-disable */
 define(['filter_dxf/three', 'filter_dxf/OrbitControls','jquery'], function(THREE, /*eslint-disable */OrbitControls/*eslint-enable */, $) {
 //three-dxf v0.3.0
+/*
+ * Released under MIT License (MIT)
+ * Made by bzuillsmith ; bzuillsmith@gmail.com
+*/
 /**
  * Returns the angle in radians of the vector (p1,p2). In other words, imagine
  * putting the base of the vector at coordinates (0,0) and finding the angle

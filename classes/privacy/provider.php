@@ -1,5 +1,4 @@
 <?php
-
 // This file is part of Moodle - http://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
@@ -15,12 +14,28 @@
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
+namespace filter_dxf\privacy;
+
+defined('MOODLE_INTERNAL') || die();
+
 /**
+ * Privacy Subsystem for filter_dxf implementing null_provider.
  *
  * @package    filter
  * @subpackage dxf
- * @copyright 2019 florent.paccalet@grenoble-inp.fr
+ * @copyright  2020 Florent Paccalet florent.paccalet@grenoble-inp.fr
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-$string['filtername'] = 'Viewier dxf';
-$string['privacy:metadata'] = 'Viewer dxf only change an stl url by a interactive DXF viewer';
+
+class provider implements \core_privacy\local\metadata\null_provider {
+
+    /**
+     * Get the language string identifier with the component's language
+     * file to explain why this plugin stores no data.
+     *
+     * @return  string
+     */
+    public static function get_reason() : string {
+        return 'privacy:metadata';
+    }
+}
